@@ -2,11 +2,15 @@
 - Before creating a new virtual box, ensure that your virtualization is enabled through [BIOS.](https://www.thomas-krenn.com/de/wikiDE/images/a/a9/SR2500-bios-intel-vt.png)
 # Virtual Box
 - Open up your virtual box and click on <b>New</b>
-<p align="center"><img src="https://i.imgur.com/SJHmAP2.png" height="65%" width="55%" alt="New"/></p> <!--1-->
+  <p align="center"><img src="https://i.imgur.com/SJHmAP2.png" height="65%" width="55%" alt="New"/></p> <!--1-->
 
-- Name your Virtual Machine. In my case, I named it Domain_Controller
-<p align="center"><img src="https://i.imgur.com/gs9uXlD.png" height="65%" width="55%" alt="DC"/></p> <!--2-->
+- Name your Virtual Machine. I named it as the <b>DomainController.</b>
+  <p align="center"><img src="https://i.imgur.com/lbesZDE.png" height="75%" width="55%" alt="DC"/></p> <!--2-->
 
-# Microsoft Windows 10 ISO
-- This is for the Client Operating System
-<p align="justify"><img src="https://i.imgur.com/2NIONBK.png" height="75%" width="75%" alt="Download Site"/></p> <!--3-->
+- Set your <b>RAM</b> and <b>CPU</b> for the VM.
+- This depends on your computer specs. If you have high end hardware, you may increase the RAM and core for the VM.
+  <p align="center"><img src="https://i.imgur.com/kOW34QK.png" height="75%" width="55%" alt="OMYGULAY"/></p> <!--3-->
+
+- Set the size of your virtual hard disk
+- If you have a lot of spare space, you may increase as wanted.
+  <p align="center"><img src="https://i.imgur.com/tjWxNvF.png" height="75%" width="55%" alt="OMYGULAY"/></p> <!--4-->
