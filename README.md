@@ -5,6 +5,7 @@
 - To demonstrate the setup for the domain controller.
 - RAS/NAT.
 - DHCP.
+- Generate user through powershell script.
   
 <b>Requirements:<b/>
 * [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
@@ -15,7 +16,7 @@
 
 
 <p align="center">
-<img src="="https://i.imgur.com/HfjvWaX.jpg" height="65%" width="65%" alt="Topology Reference for AD DS Setup ( Home Lab)"/>
+<img src="https://i.imgur.com/HfjvWaX.jpg" height="85%" width="85%" alt="Topology Reference for AD DS Setup ( Home Lab)"/>
 </p>
 
 
