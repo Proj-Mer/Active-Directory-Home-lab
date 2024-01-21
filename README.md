@@ -1,5 +1,5 @@
 # OBJECTIVE
-## Setup a home lab with a running active directory with VM
+## Setup a home lab with a running active directory through a virtual environment.
 - To demonstrate how to setup virtual machines.
 - To demonstrate the procedure of installing OS through the VM.
 - To demonstrate the setup for the domain controller.
