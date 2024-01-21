@@ -5,7 +5,7 @@
 - To demonstrate the setup for the domain controller.
 - RAS/NAT.
 - DHCP.
-- Generate user through powershell script.
+- Generate random users through powershell script.
   
 <b>Requirements:<b/>
 * [Virtual Box](https://www.virtualbox.org/wiki/Downloads)
