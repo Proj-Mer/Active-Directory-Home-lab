@@ -15,7 +15,7 @@
 
 
 <p align="center">
-<img src="="https://imgur.com/HfjvWaX" height="65%" width="65%" alt="Topology Reference for AD DS Setup ( Home Lab)"/>
+<img src="="https://i.imgur.com/HfjvWaX.jpg" height="65%" width="65%" alt="Topology Reference for AD DS Setup ( Home Lab)"/>
 </p>
 
 
