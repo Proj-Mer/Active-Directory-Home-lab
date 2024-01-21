@@ -6,4 +6,4 @@
 # Virtual Box
 - Download virtual box depending on your OS.
   
-  ![Vbox1](/Images/Vbox1.png)
+  ![Vbox1](../Setting_up/Images/Vbox1.png)
