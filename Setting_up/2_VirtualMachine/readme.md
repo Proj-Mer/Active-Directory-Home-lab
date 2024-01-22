@@ -14,11 +14,20 @@
 - Set the size of your virtual hard disk
 - If you have a lot of spare space, you may increase as wanted.
   <p align="center"><img src="https://i.imgur.com/tjWxNvF.png" height="75%" width="55%" alt="brt"/></p> <!--4-->
-
+- Click on **Settings** of the Virtual Machine
+- Go to **Network**
+- Choose **Internal Network** For the 2nd Adapter
+  - This is for the Dedicated VMWare Network
+  - Adapter 1 is reserved for the House internet which is the **NAT**
+    <p align="center"><img src="https://i.imgur.com/xnj46IH.png" height="75%" width="55%" alt="brt"/></p> <!--4-->
+    
+## Ease of use
+- Easier to maneuver files as you may use the **Coppied Clipboard** and **Drag and drop** from your host system to the virtual machine.
+  <p align="center"><img src="https://i.imgur.com/ljbD9Q4.png" height="75%" width="55%" alt="brt"/></p> <!--5-->
 # Setting up the Domain Controller
 - Open the domain controller virtual machine
 - Select the downloaded **server 2019 ISO**
 - Select **Mount and Retry boot**
 - Wait for the VM to boot up.
-  <p align="center"><img src="https://i.imgur.com/MiOIK1v.png" height="75%" width="55%" alt="brt"/></p> <!--5-->
+  <p align="center"><img src="https://i.imgur.com/MiOIK1v.png" height="75%" width="55%" alt="brt"/></p> <!--6-->
 
