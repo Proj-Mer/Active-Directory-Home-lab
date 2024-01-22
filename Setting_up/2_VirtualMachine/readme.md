@@ -14,3 +14,10 @@
 - Set the size of your virtual hard disk
 - If you have a lot of spare space, you may increase as wanted.
   <p align="center"><img src="https://i.imgur.com/tjWxNvF.png" height="75%" width="55%" alt="brt"/></p> <!--4-->
+
+# Setting up the Domain Controller
+- Open the domain controller virtual machine
+- Select the downloaded **server 2019 ISO**
+- Select **Mount and Retry boot**
+  <p align="center"><img src="https://i.imgur.com/MiOIK1v.png" height="75%" width="55%" alt="brt"/></p> <!--5-->
+
