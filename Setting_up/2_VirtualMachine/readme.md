@@ -19,5 +19,6 @@
 - Open the domain controller virtual machine
 - Select the downloaded **server 2019 ISO**
 - Select **Mount and Retry boot**
+- Wait for the VM to boot up.
   <p align="center"><img src="https://i.imgur.com/MiOIK1v.png" height="75%" width="55%" alt="brt"/></p> <!--5-->
 
