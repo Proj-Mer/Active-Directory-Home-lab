@@ -50,3 +50,16 @@
 - You will then be prompted to the login screen.
 - Log in using the your created password with the administrator account.
  <p align="center"> <img src="https://i.imgur.com/9NteP0z.png" width="45%" height="50%" /> <img src="https://i.imgur.com/CZDEIbU.png" width="45%" height="50%" style="float:left"/> </p>
+
+**Note:** You may notice that the mouse is lagging and when resizing the Virtual box, it does not adjust properly.
+The solution for this is to install the downloaded **extension pack** at the virtual box site. To implement this:
+
+- Click on the devices of the virtual machine and select **Insert Guest Additions CD Image.**
+- After clicking on it, notice that **CD Drive (D:)** has popped up.
+<p align="center"> <img src="https://i.imgur.com/YAUrs1v.png" width="45%" height="50%" /> <img src="https://i.imgur.com/0TN92eC.png" width="45%" height="50%" style="float:left"/></p>
+
+- Click on the **CD Drive (D:)** and select **amd64**
+- Install and reboot.
+  
+  **Note:** You may notice that rebooting through the VM does not change anything. The solution to this is to **Shut Down** the VM and **Start** the **DC** again from the **Virtual Box.**
+- <p align="center"> <img src="https://i.imgur.com/oMnV0WQ.png" width="45%" height="50%" /> <img src="https://i.imgur.com/9BoajV7.png" width="45%" height="50%" style="float:left"/></p>
