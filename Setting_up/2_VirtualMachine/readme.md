@@ -47,3 +47,6 @@
   <p align="center"><img src="https://i.imgur.com/vhnOwTM.png" height="75%" width="55%" alt="brt"/></p> <!--9-->
 - After installing, you are prompted to create a **password** for the administrator account 
   <p align="center"><img src="https://i.imgur.com/T2OySiE.png" height="75%" width="55%" alt="brt"/></p> <!--9-->
+- You will then be prompted to the login screen.
+- Log in using the your created password with the administrator account.
+ <p align="center"> <img src="https://i.imgur.com/9NteP0z.png" width="45%" height="50%" /> <img src="https://i.imgur.com/CZDEIbU.png" width="45%" height="50%" style="float:left"/> </p>
