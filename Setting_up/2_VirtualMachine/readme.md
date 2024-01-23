@@ -38,3 +38,9 @@
 - Select the **Windows Server 2019 Evaluation (Desktop Experience).**
 - Agree to the terms and conditions and go next. 
   <p align="center"><img src="https://i.imgur.com/JKfDTWd.png" height="75%" width="55%" alt="brt"/></p> <!--9-->
+- Select **Custom: Install Windows only**
+  <p align="center"><img src="https://i.imgur.com/Brn59R1.png" height="75%" width="55%" alt="brt"/></p> <!--9-->
+- Select Drive 
+  <p align="center"><img src="https://i.imgur.com/2lLgduV.png" height="75%" width="55%" alt="brt"/></p> <!--9-->
+- Wait for the server to Install 
+  <p align="center"><img src="https://i.imgur.com/vhnOwTM.png" height="75%" width="55%" alt="brt"/></p> <!--9-->
