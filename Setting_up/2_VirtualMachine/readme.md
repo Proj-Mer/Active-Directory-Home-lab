@@ -31,5 +31,10 @@
 - Wait for the VM to boot up.
   <p align="center"><img src="https://i.imgur.com/MiOIK1v.png" height="75%" width="55%" alt="brt"/></p> <!--6-->
 
-- After waiting, the Windows setup should display
+- After waiting, the Windows setup should display.
   <p align="center"><img src="https://i.imgur.com/xMrjiQF.png" height="75%" width="55%" alt="brt"/></p> <!--7-->
+- Click **Install Now.**
+  <p align="center"><img src="https://i.imgur.com/507Z0JL.png" height="75%" width="55%" alt="brt"/></p> <!--8-->
+- Select the **Windows Server 2019 Evaluation (Desktop Experience).**
+- Agree to the terms and conditions and go next. 
+  <p align="center"><img src="https://i.imgur.com/JKfDTWd.png" height="75%" width="55%" alt="brt"/></p> <!--9-->
