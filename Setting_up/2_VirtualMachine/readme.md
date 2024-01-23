@@ -45,3 +45,5 @@
 - Wait for the server to Install
   - It may restart a few times. Wait until the **Login Screen** is loaded.
   <p align="center"><img src="https://i.imgur.com/vhnOwTM.png" height="75%" width="55%" alt="brt"/></p> <!--9-->
+- After installing, you are prompted to create a **password** for the administrator account 
+  <p align="center"><img src="https://i.imgur.com/T2OySiE.png" height="75%" width="55%" alt="brt"/></p> <!--9-->
