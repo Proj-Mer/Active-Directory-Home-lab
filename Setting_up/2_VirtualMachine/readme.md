@@ -31,3 +31,5 @@
 - Wait for the VM to boot up.
   <p align="center"><img src="https://i.imgur.com/MiOIK1v.png" height="75%" width="55%" alt="brt"/></p> <!--6-->
 
+- After waiting, the Windows setup should display
+  <p align="center"><img src="https://i.imgur.com/xMrjiQF.png" height="75%" width="55%" alt="brt"/></p> <!--7-->
