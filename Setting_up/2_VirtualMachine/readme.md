@@ -42,5 +42,6 @@
   <p align="center"><img src="https://i.imgur.com/Brn59R1.png" height="75%" width="55%" alt="brt"/></p> <!--9-->
 - Select Drive 
   <p align="center"><img src="https://i.imgur.com/2lLgduV.png" height="75%" width="55%" alt="brt"/></p> <!--9-->
-- Wait for the server to Install 
+- Wait for the server to Install
+  - It may restart a few times. Wait until the **Login Screen** is loaded.
   <p align="center"><img src="https://i.imgur.com/vhnOwTM.png" height="75%" width="55%" alt="brt"/></p> <!--9-->
