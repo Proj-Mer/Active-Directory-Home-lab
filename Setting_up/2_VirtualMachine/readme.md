@@ -64,5 +64,9 @@ The solution for this is to install the downloaded **extension pack** at the vir
   **Note:** You may notice that rebooting through the VM does not change anything. The solution to this is to **Shut Down** the VM and **Start** the **DC** again from the **Virtual Box.**
   <p align="center"> <img src="https://i.imgur.com/oMnV0WQ.png" width="45%" height="50%" /> <img src="https://i.imgur.com/9BoajV7.png" width="45%" height="50%" style="float:left"/></p>
 
-# IP addressing setup [(Lab Diagram)](https://i.imgur.com/HfjvWaX.jpg)
+# IP addressing [setup.](https://i.imgur.com/HfjvWaX.jpg)
 - Setting up for **NIC Internal** for the **VMware Network**
+- Navigate to the **taskbar** and click on the **network icon** and click on the **Network & Internet settings**
+  <p align="center"><img src="https://i.imgur.com/WFLqbDH.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- Navigate and click on **Change adapter options**
+  <p align="center"><img src="https://i.imgur.com/iVXmr6L.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
