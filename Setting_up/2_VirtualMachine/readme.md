@@ -70,3 +70,11 @@ The solution for this is to install the downloaded **extension pack** at the vir
   <p align="center"><img src="https://i.imgur.com/WFLqbDH.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
 - Navigate and click on **Change adapter options**
   <p align="center"><img src="https://i.imgur.com/iVXmr6L.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+
+- Notice that there are two Ethernet connections.
+- We should be able to differentiate and identify which connection is the **INTERNAL** and the **INTERNET** and properly name the said connections.
+  <p align="center"><img src="https://i.imgur.com/5FTewTR.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- Upon inspection by clicking on the ethernet details, we could see that the IP for **DNS Server** is the gateway to my home router.
+- We could conclude that **Ethernet** is our **Internet** connection.
+- Notice that for the **Ethernet 2**, IPv4 address is autoconfigured as it was tring to fetch IP from somewhere but was unable to do so
+ <p align="center"> <img src="https://i.imgur.com/xXM4P2f.png" width="45%" height="50%" /> <img src="https://i.imgur.com/BlpGRZf.png" width="45%" height="50%" style="float:left"/></p>
