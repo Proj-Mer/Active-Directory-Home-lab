@@ -86,3 +86,6 @@ The solution for this is to install the downloaded **extension pack** at the vir
 - Right click, and select **Properties.**
 - Select **Internet Protocol Version 4 (TCP/IPv4).**
  <p align="center"> <img src="https://i.imgur.com/rwjtjzg.png" width="45%" height="50%" /> <img src="https://i.imgur.com/LwhqSux.png" width="45%" height="50%" style="float:left"/></p>
+
+- Assigning the **IP** with accordance to the [diagram.](https://i.imgur.com/HfjvWaX.jpg)
+  <p align="center"><img src="https://i.imgur.com/O8MCA4i.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
