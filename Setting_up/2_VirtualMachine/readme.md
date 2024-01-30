@@ -76,5 +76,13 @@ The solution for this is to install the downloaded **extension pack** at the vir
   <p align="center"><img src="https://i.imgur.com/5FTewTR.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
 - Upon inspection by clicking on the ethernet details, we could see that the IP for **DNS Server** is the gateway to my home router.
 - We could conclude that **Ethernet** is our **Internet** connection.
+- Right click on the **Ethernet** and we will rename it as our **_Internet_.**
 - Notice that for the **Ethernet 2**, IPv4 address is autoconfigured as it was trying to fetch IP from somewhere but was unable to do so.
+- Right click on the **Ethernet 2** and we will rename it as our **_Internal_.**
  <p align="center"> <img src="https://i.imgur.com/xXM4P2f.png" width="45%" height="50%" /> <img src="https://i.imgur.com/BlpGRZf.png" width="45%" height="50%" style="float:left"/></p>
+
+- We will no be assigning IP address to the **Internal Network.**
+- Navigate to the **_Internal_** network.
+- Right click, and select **Properties.**
+- Select **Internet Protocol Version 4 (TCP/IPv4).**
+ <p align="center"> <img src="https://i.imgur.com/rwjtjzg.png" width="45%" height="50%" /> <img src="https://i.imgur.com/LwhqSux.png" width="45%" height="50%" style="float:left"/></p>
