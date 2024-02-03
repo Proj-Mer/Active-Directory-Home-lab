@@ -63,6 +63,7 @@ The solution for this is to install the downloaded **extension pack** at the vir
   
   **Note:** You may notice that rebooting through the VM does not change anything. The solution to this is to **Shut Down** the VM and **Start** the **DC** again from the **Virtual Box.**
   <p align="center"> <img src="https://i.imgur.com/oMnV0WQ.png" width="45%" height="50%" /> <img src="https://i.imgur.com/9BoajV7.png" width="45%" height="50%" style="float:left"/></p>
+Right Click on Windows -> System -> Rename your PC to DomainController
 
 # IP addressing [setup.](https://i.imgur.com/HfjvWaX.jpg)
 - Setting up for **NIC Internal** for the **VMware Network**
@@ -89,3 +90,5 @@ The solution for this is to install the downloaded **extension pack** at the vir
 
 - Assigning the **IP** with accordance to the [diagram.](https://i.imgur.com/HfjvWaX.jpg)
   <p align="center"><img src="https://i.imgur.com/O8MCA4i.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+
+# Installing and Setting Up Active Directry Domain Servicecs
