@@ -91,4 +91,13 @@ Right Click on Windows -> System -> Rename your PC to DomainController
 - Assigning the **IP** with accordance to the [diagram.](https://i.imgur.com/HfjvWaX.jpg)
   <p align="center"><img src="https://i.imgur.com/O8MCA4i.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
 
-# Installing and Setting Up Active Directry Domain Servicecs
+# Installing and Setting Up Active Directry Domain Services
+- Now we will be installing the AD DS by clicking on **Add roles and features** at the **Service Manager.**
+  <p align="center"><img src="https://i.imgur.com/oQHvFwb.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- Click on next until **Server Selection.**
+- Since we only have one server, select the named server which is the **DomainController** and click next.
+  <p align="center"><img src="https://i.imgur.com/cSJ1vKg.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- At the **Server Roles**, select the **Active Directory Domain Services**, click **add features** and click next.
+  <p align="center"> <img src="https://i.imgur.com/eiVRfHA.png" width="45%" height="50%" /> <img src="https://i.imgur.com/bX3J9kE.png" width="45%" height="50%" style="float:left"/></p>
+- At the **Confirmation** click Install and wait for it to complete.
+  <p align="center"> <img src="https://i.imgur.com/BDUxuK2.png" width="45%" height="50%" /> <img src="https://i.imgur.com/cbB6G3C.png" width="45%" height="50%" style="float:left"/></p>
