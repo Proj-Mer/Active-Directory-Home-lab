@@ -100,4 +100,4 @@ Right Click on Windows -> System -> Rename your PC to DomainController
 - At the **Server Roles**, select the **Active Directory Domain Services**, click **add features** and click next.
   <p align="center"> <img src="https://i.imgur.com/eiVRfHA.png" width="45%" height="50%" /> <img src="https://i.imgur.com/bX3J9kE.png" width="45%" height="50%" style="float:left"/></p>
 - At the **Confirmation** click Install and wait for it to complete.
-  <p align="center"> <img src="https://i.imgur.com/BDUxuK2.png" width="45%" height="50%" /> <img src="https://i.imgur.com/cbB6G3C.png" width="45%" height="50%" style="float:left"/></p>
+  <p align="center"> <img src="https://i.imgur.com/BDUxuK2.png" width="45%" height="50%" /> <img src="https://i.imgur.com/lEhTUNt.png" width="45%" height="50%" style="float:left"/></p>
