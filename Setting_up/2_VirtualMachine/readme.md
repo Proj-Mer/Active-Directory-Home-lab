@@ -94,23 +94,45 @@ Right Click on Windows -> System -> Rename your PC to DomainController
 # Installing and Setting Up Active Directry Domain Services
 - Now we will be installing the AD DS by clicking on **Add roles and features** at the **Service Manager.**
   <p align="center"><img src="https://i.imgur.com/oQHvFwb.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+  
 - Click on next until **Server Selection.**
 - Since we only have one server, select the named server which is the **DomainController** and click next.
   <p align="center"><img src="https://i.imgur.com/cSJ1vKg.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+  
 - At the **Server Roles**, select the **Active Directory Domain Services**, click **add features** and click next.
   <p align="center"> <img src="https://i.imgur.com/eiVRfHA.png" width="45%" height="50%" /> <img src="https://i.imgur.com/bX3J9kE.png" width="45%" height="50%" style="float:left"/></p>
+  
 - At the **Confirmation** click Install and wait for it to complete.
   <p align="center"> <img src="https://i.imgur.com/BDUxuK2.png" width="45%" height="50%" /> <img src="https://i.imgur.com/lEhTUNt.png" width="45%" height="50%" style="float:left"/></p>
+  
 - We installed the AD DS but did not really create the domain yet.
 - Notice that at the top right icon which is the notification, click on it.
  <p align="center"> <img src="https://i.imgur.com/AEAVsp7.png" width="45%" height="50%" /> <img src="https://i.imgur.com/BorC868.png" width="45%" height="50%" style="float:left"/></p>
+ 
 - The **Deployment Configuration** should pop up.
 - Click on **Add forest** and enter any root domain name you want. I named it as **mydomain.com** as it is the most generic and easy to follow.
 - Click on next
 <p align="center"><img src="https://i.imgur.com/c6a6dk2.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+
 - You may or may not put password but since this is just a home lab.
 <p align="center"><img src="https://i.imgur.com/aUiHjkj.png" height="55%" width="55%" alt="brt"/></p> <!--9--> 
+
 - Click on next until **prerequesite check** and then click on install.
 <p align="center"><img src="https://i.imgur.com/JtIwf5k.png" height="55%" width="55%" alt="brt"/></p> <!--9--> 
+
+# Creating a Dedicated Admin Account.
 - After the install, it will restart and should require you to login to the **MYDOMAIN/Administrator** account.
 <p align="center"><img src="https://i.imgur.com/Yvl0yho.png" height="55%" width="55%" alt="brt"/></p> <!--9--> 
+
+- Now we will create our own dedicated admin account instead of using the built in administrator account.
+- By doing so, we need to click on **windows.**
+- click on **Windows Administrative Tools.**
+- click on **Active Directory Users and Computers.**
+ <p align="center"> <img src="https://i.imgur.com/ZzNq1GQ.png" width="45%" height="50%" /> <img src="https://i.imgur.com/sZqH0SR.png" width="45%" height="50%" style="float:left"/></p>
+
+- Create and Organizational Unit (OU) to put in the admin account that is to be created.
+
+  [An organizational unit (OU)](https://www.techtarget.com/searchwindowsserver/definition/organizational-unit-OU)- is a container within a Microsoft Active Directory domain which can hold users, groups and computers.
+  <p align="center"><img src="https://i.imgur.com/5vabJJq.png" height="55%" width="55%" alt="brt"/></p> <!--9--> 
+- I named it as **_ADMINS** for the OU of the adminstrator accounts.
+   <p align="center"> <img src="https://i.imgur.com/zZ4p3OH.png" width="45%" height="50%" /> <img src="https://i.imgur.com/bLuTxvW.png" width="45%" height="50%" style="float:left"/></p>
