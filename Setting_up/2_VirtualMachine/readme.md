@@ -136,3 +136,17 @@ Right Click on Windows -> System -> Rename your PC to DomainController
   <p align="center"><img src="https://i.imgur.com/5vabJJq.png" height="55%" width="55%" alt="brt"/></p> <!--9--> 
 - I named it as **_ADMINS** for the OU of the adminstrator accounts.
    <p align="center"> <img src="https://i.imgur.com/zZ4p3OH.png" width="45%" height="50%" /> <img src="https://i.imgur.com/bLuTxvW.png" width="45%" height="50%" style="float:left"/></p>
+- We will now be creating a user through the created **_ADMINS** folder.
+- Right click on the created **_ADMINS** folder.
+- Hover on **New** and select **user**
+  
+**NOTE:** There are some naming conventions where you put the initial and then the last name, first name and employee ID, and other types.
+For this example we will format it as first initial and last name.
+ <p align="center"> <img src="https://i.imgur.com/PlbSYgG.png" width="45%" height="50%" /> <img src="https://i.imgur.com/jOqLu2D.png" width="45%" height="50%" style="float:left"/></p>
+
+- After creating the user, set up the password and click finish.
+- You will notice the newly created user at the **_ADMINS** folder.
+  <p align="center"> <img src="https://i.imgur.com/yGDc1IH.png" width="45%" height="50%" /> <img src="https://i.imgur.com/6aSmHx0.png" width="45%" height="50%" style="float:left"/></p>
+
+- Set the user as a domain admin by clicking right click on the **user** -> **member of** -> **add** -> **Domain admin** -> **check names** -> **ok**.
+  <p align="center"><img src="https://i.imgur.com/tAWYZpP.png" height="55%" width="55%" alt="brt"/></p> <!--9--> 
