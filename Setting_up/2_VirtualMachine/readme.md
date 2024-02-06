@@ -1,4 +1,4 @@
-# Note!
+![image](https://github.com/Proj-Mer/Active-Directory-Home-lab/assets/157049853/b92cdc87-52ce-4937-92a8-c2411edeff67)# Note!
 - Before creating a new virtual box, ensure that your virtualization is enabled through [BIOS.](https://www.thomas-krenn.com/de/wikiDE/images/a/a9/SR2500-bios-intel-vt.png)
 # Virtual Box
 - Open up your virtual box and click on **New.**
@@ -148,5 +148,30 @@ For this example we will format it as first initial and last name.
 - You will notice the newly created user at the **_ADMINS** folder.
   <p align="center"> <img src="https://i.imgur.com/yGDc1IH.png" width="45%" height="50%" /> <img src="https://i.imgur.com/6aSmHx0.png" width="45%" height="50%" style="float:left"/></p>
 
-- Set the user as a domain admin by clicking right click on the **user** -> **member of** -> **add** -> **Domain admin** -> **check names** -> **ok**.
+- Set the user as a domain admin by clicking right click on the **user** -> **member of** -> **add** -> **Domain admin** -> **check names** -> **Apply** -> **ok**.
   <p align="center"><img src="https://i.imgur.com/tAWYZpP.png" height="55%" width="55%" alt="brt"/></p> <!--9--> 
+
+- Now we can use the created dedicated admin account for the domain controller.
+- Sign in using the domain admin account.
+<p align="center"><img src="https://i.imgur.com/d8vHqgN.png" height="55%" width="55%" alt="brt"/></p> <!--9--> 
+
+# Installing RAS/NAT.
+- After succesfully logging in to the dedicated domain admin account.
+- In the **Service Manager.**
+- Click on **Add roles and features.**
+- On the **Server Roles** tab, select **Remote Access.**
+   <p align="center"><img src="https://i.imgur.com/7x3m3PT.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- Click next until the **Roles Services** tab.
+- Click on **routing** and select **add feature**.
+- **Direct Access and VPN (RAS)** will be automatically come with the routing.
+  <p align="center"><img src="https://i.imgur.com/arNV6Oe.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- On the **Confirmation** tab, select install and wait.
+  <p align="center"> <img src="https://i.imgur.com/E4HSHiu.png" width="45%" height="50%" /> <img src="https://i.imgur.com/BDPAUBU.png" width="45%" height="50%" style="float:left"/></p>
+
+- On the **Service Manager**, select tools and select **Routing and Remote Access**.
+  <p align="center"><img src="https://i.imgur.com/H3mrWBX.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- Right click on the **DomainController** and select **Configure and Enable Routing and Remote Access.**
+  <p align="center"><img src="https://i.imgur.com/24vOCJx.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- Click Next and select **Network Address Translation (NAT)**.
+  <p align="center"><img src="https://i.imgur.com/6JM6Gn9.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+  
