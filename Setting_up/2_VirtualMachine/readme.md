@@ -1,4 +1,4 @@
-![image](https://github.com/Proj-Mer/Active-Directory-Home-lab/assets/157049853/b92cdc87-52ce-4937-92a8-c2411edeff67)# Note!
+# Note!
 - Before creating a new virtual box, ensure that your virtualization is enabled through [BIOS.](https://www.thomas-krenn.com/de/wikiDE/images/a/a9/SR2500-bios-intel-vt.png)
 # Virtual Box
 - Open up your virtual box and click on **New.**
