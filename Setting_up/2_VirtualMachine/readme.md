@@ -189,7 +189,7 @@ For this example we will format it as first initial and last name.
 - Click on Install and wait.
   <p align="center"><img src="https://i.imgur.com/1JcFXDg.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
 - We will now be setting up the **DHCP Scope** in reference to the lab diagram.
-This will allow windows clients to get IP and allow them to browse the internet through the Domain Controller.
+  - This will allow windows clients to get IP and allow them to browse the internet through the Domain Controller.
 - Go to **Tools.**
 - And select **DHCP.**
   <p align="center"><img src="https://i.imgur.com/pH8E2HG.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
@@ -206,3 +206,8 @@ This will allow windows clients to get IP and allow them to browse the internet 
    <p align="center"><img src="https://i.imgur.com/kPOXfnt.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
  - Click on next until finish.
    <p align="center"><img src="https://i.imgur.com/ZQNuCbh.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+ - To implement the changes made, right click on the **domaincontroller**, and click **authorize.**
+ - Then right click on **IPv4** and click **refresh.**
+ - right click on **domaincontroller** and click **refresh.**
+   We now notice that it is running by the green icon and seing the scope folder active.
+   <p align="center"><img src="https://i.imgur.com/FMteAPb.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
