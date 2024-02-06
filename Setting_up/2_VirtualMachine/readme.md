@@ -168,10 +168,41 @@ For this example we will format it as first initial and last name.
 - On the **Confirmation** tab, select install and wait.
   <p align="center"> <img src="https://i.imgur.com/E4HSHiu.png" width="45%" height="50%" /> <img src="https://i.imgur.com/BDPAUBU.png" width="45%" height="50%" style="float:left"/></p>
 
-- On the **Service Manager**, select tools and select **Routing and Remote Access**.
+- On the **Service Manager**, select **tools** and select **Routing and Remote Access**.
   <p align="center"><img src="https://i.imgur.com/H3mrWBX.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
 - Right click on the **DomainController** and select **Configure and Enable Routing and Remote Access.**
   <p align="center"><img src="https://i.imgur.com/24vOCJx.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
 - Click Next and select **Network Address Translation (NAT)**.
   <p align="center"><img src="https://i.imgur.com/6JM6Gn9.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
-  
+- In the network interface, select the **_internet**.
+- Click next, and finish. Wait for it to be done.
+- Now we will notice that our domain controller is green.
+  **NOTE:** If you notice that there are no available interface shown, close and redo the **Routing and Remote Access.**
+<p align="center"><img src="https://i.imgur.com/JNNmQnR.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+
+# Setting up DHCP on the Domain Controller.
+- In the **Service Manager**.
+- Click on **Add roles and features.**
+- In the **Server Roles.**
+- Select **DHCP** and **Add feature.**.
+  <p align="center"><img src="https://i.imgur.com/O08hBZD.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- Click on Install and wait.
+  <p align="center"><img src="https://i.imgur.com/1JcFXDg.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- We will now be setting up the **DHCP Scope** in reference to the lab diagram.
+This will allow windows clients to get IP and allow them to browse the internet through the Domain Controller.
+- Go to **Tools.**
+- And select **DHCP.**
+  <p align="center"><img src="https://i.imgur.com/pH8E2HG.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- In the **DHCP Control Panel**, right click **IPv4** and click on **New Scope.**
+  <p align="center"><img src="https://i.imgur.com/ne59CTh.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- Click on **next.**
+- In my case, I named it as the scope range.
+  <p align="center"><img src="https://i.imgur.com/0MPIPb7.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+- For the IP range, with accordance with the lab diagram.
+ <p align="center"><img src="https://i.imgur.com/9ooQw10.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+ 
+ - Click next until the configuration for the **Router (default Gateway).**
+ - Add the **Domain Controller** IP since it has the NAT setted up to forward traffic from the client to DC to be able to connect to the internet.
+   <p align="center"><img src="https://i.imgur.com/kPOXfnt.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+ - Click on next until finish.
+   <p align="center"><img src="https://i.imgur.com/ZQNuCbh.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
