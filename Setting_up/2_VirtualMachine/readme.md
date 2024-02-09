@@ -92,7 +92,7 @@ Right Click on Windows -> System -> Rename your PC to DomainController
   <p align="center"><img src="https://i.imgur.com/O8MCA4i.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
 
 # Installing and Setting Up Active Directry Domain Services
-- Now we will be installing the AD DS by clicking on **Add roles and features** at the **Service Manager.**
+- Now we will be installing the AD DS by clicking on **Add roles and features** at the **Server Manager.**
   <p align="center"><img src="https://i.imgur.com/oQHvFwb.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
   
 - Click on next until **Server Selection.**
@@ -157,7 +157,7 @@ For this example we will format it as first initial and last name.
 
 # Installing RAS/NAT.
 - After succesfully logging in to the dedicated domain admin account.
-- In the **Service Manager.**
+- In the **Server Manager.**
 - Click on **Add roles and features.**
 - On the **Server Roles** tab, select **Remote Access.**
    <p align="center"><img src="https://i.imgur.com/7x3m3PT.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
@@ -168,7 +168,7 @@ For this example we will format it as first initial and last name.
 - On the **Confirmation** tab, select install and wait.
   <p align="center"> <img src="https://i.imgur.com/E4HSHiu.png" width="45%" height="50%" /> <img src="https://i.imgur.com/BDPAUBU.png" width="45%" height="50%" style="float:left"/></p>
 
-- On the **Service Manager**, select **tools** and select **Routing and Remote Access**.
+- On the **Server Manager**, select **tools** and select **Routing and Remote Access**.
   <p align="center"><img src="https://i.imgur.com/H3mrWBX.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
 - Right click on the **DomainController** and select **Configure and Enable Routing and Remote Access.**
   <p align="center"><img src="https://i.imgur.com/24vOCJx.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
@@ -181,7 +181,7 @@ For this example we will format it as first initial and last name.
 <p align="center"><img src="https://i.imgur.com/JNNmQnR.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
 
 # Setting up DHCP on the Domain Controller.
-- In the **Service Manager**.
+- In the **Server Manager**.
 - Click on **Add roles and features.**
 - In the **Server Roles.**
 - Select **DHCP** and **Add feature.**.
