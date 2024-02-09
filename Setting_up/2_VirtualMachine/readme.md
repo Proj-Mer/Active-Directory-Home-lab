@@ -211,3 +211,4 @@ For this example we will format it as first initial and last name.
  - right click on **domaincontroller** and click **refresh.**
    We now notice that it is running by the green icon and seing the scope folder active.
    <p align="center"><img src="https://i.imgur.com/FMteAPb.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
+# Creating Users with Powershell script.
