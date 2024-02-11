@@ -230,3 +230,4 @@ For this example we will format it as first initial and last name.
    
   - We should be able to see the newly generated users at **Active Directory Users and Computers.**
     <p align="center"><img src="https://i.imgur.com/5lP2rzQ.png" height="55%" width="55%" alt="brt"/></p>
+# Creating a virtual machine for the windows client.
