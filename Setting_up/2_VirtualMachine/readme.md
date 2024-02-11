@@ -211,4 +211,22 @@ For this example we will format it as first initial and last name.
  - right click on **domaincontroller** and click **refresh.**
    We now notice that it is running by the green icon and seing the scope folder active.
    <p align="center"><img src="https://i.imgur.com/FMteAPb.png" height="55%" width="55%" alt="brt"/></p> <!--9-->
-# Creating Users with Powershell script.
+
+# Creating Users with Powershell script.  
+
+  - Navigate through **Windows**.
+  - Click **Windows PowerShell.**
+  - Navigate to **Windows PowerShell ISE.**
+  - Right click and **Run as administrator.**
+    
+   <p align="center"><img src="https://i.imgur.com/Hs67Ehn.png" height="55%" width="55%" alt="brt"/></p>
+  
+  - [Script here.](https://github.com/Proj-Mer/PowerShell-script-user-generation)
+  - This also contains a text file of names. 
+    <p align="center"><img src="https://i.imgur.com/jyGCyUU.png" height="55%" width="55%" alt="brt"/></p>
+  - Before running the script, change the directory to where the names.txt is located.
+  - **"cd C:\Users\jsmith\Desktop"**
+   <p align="center"><img src="https://i.imgur.com/DdYBPJa.png" height="55%" width="55%" alt="brt"/></p>
+   
+  - We should be able to see the newly generated users at **Active Directory Users and Computers.**
+    <p align="center"><img src="https://i.imgur.com/5lP2rzQ.png" height="55%" width="55%" alt="brt"/></p>
