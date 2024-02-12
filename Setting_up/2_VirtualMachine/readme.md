@@ -239,3 +239,25 @@ For this example we will format it as first initial and last name.
   <p align="center"><img src="https://i.imgur.com/wp9Ve0t.png" height="55%" width="55%" alt="brt"/></p>
   - Set your virtual hard disk and finish the setup.
   <p align="center"> <img src="https://i.imgur.com/IZltQkT.png" width="45%" height="50%" /> <img src="https://i.imgur.com/V4IYWTh.png" width="45%" height="50%" style="float:left"/></p>
+  
+  - Just like how we set up the domain controller, also do the bidirectional at **general** -> **advanced.**
+  - The only thing that we will change is the adapter for our windows 10 client.
+  - Set the network adapter to internal as we want to access the internet through the domain controller.
+   <p align="center"><img src="https://i.imgur.com/Kr2gYaB.png" height="55%" width="55%" alt="brt"/></p>
+   
+  - Run the **Client_1** machine.
+  - Select the Windows 10 ISO image and boot.
+    <p align="center"><img src="https://i.imgur.com/TwDRV7u.png" height="55%" width="55%" alt="brt"/></p><!--after image 11  accept terms-->
+  - After some time, it should prompt you to the installation.
+  - Click **next** and **install now.**
+    <p align="center"> <img src="https://i.imgur.com/tWFvCyy.png" width="45%" height="50%" /> <img src="https://i.imgur.com/yv033aB.png" width="45%" height="50%" style="float:left"/></p>
+  - Select **I don't have a product key.**
+    <p align="center"><img src="https://i.imgur.com/KgjuSdt.png" height="55%" width="55%" alt="brt"/></p>
+  - Select **Windows 10 Pro.**
+  - Accept the terms and conditions.
+    <p align="center"><img src="https://i.imgur.com/WOaepZe.png" height="55%" width="55%" alt="brt"/></p>
+  - Select **Custom: Install Windows Only.**
+    <p align="center"><img src="https://i.imgur.com/XROmqrD.png" height="55%" width="55%" alt="brt"/></p>
+  - Select the allocated drive and click next.
+  - Wait for the windows to install.
+    <p align="center"><img src="https://i.imgur.com/uQv0r5b.png" height="55%" width="55%" alt="brt"/></p>
