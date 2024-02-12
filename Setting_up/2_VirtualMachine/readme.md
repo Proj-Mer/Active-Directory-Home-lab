@@ -261,3 +261,5 @@ For this example we will format it as first initial and last name.
   - Select the allocated drive and click next.
   - Wait for the windows to install.
     <p align="center"><img src="https://i.imgur.com/uQv0r5b.png" height="55%" width="55%" alt="brt"/></p>
+  - Setup your preferences for language and keyboard.
+  - Select **I don't have internet.**
