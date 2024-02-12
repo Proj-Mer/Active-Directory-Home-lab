@@ -231,3 +231,11 @@ For this example we will format it as first initial and last name.
   - We should be able to see the newly generated users at **Active Directory Users and Computers.**
     <p align="center"><img src="https://i.imgur.com/5lP2rzQ.png" height="55%" width="55%" alt="brt"/></p>
 # Creating a virtual machine for the windows client.
+  - On your **Virtual Box**, select **New.**
+   <p align="center"><img src="https://i.imgur.com/SMIhb2M.png" height="55%" width="55%" alt="brt"/></p>
+   
+  - Name it however you like. In my case, I named it **Client_1**
+  - As for the version, select **Windows 10 (64-bit).**
+  <p align="center"><img src="https://i.imgur.com/wp9Ve0t.png" height="55%" width="55%" alt="brt"/></p>
+  - Set your virtual hard disk and finish the setup.
+  <p align="center"> <img src="https://i.imgur.com/IZltQkT.png" width="45%" height="50%" /> <img src="https://i.imgur.com/V4IYWTh.png" width="45%" height="50%" style="float:left"/></p>
